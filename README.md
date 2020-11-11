@@ -15,9 +15,9 @@
 - Desafio pós-workshop
   - Escolher um item adicional e implementar, podem usar a cola como referência
   
-[Cola aqui](http://test.com "Cola aqui")
+[Cola aqui](https://gist.github.com/samlucax/3c437c045378f6048002df94934b85e8 "Cola aqui")
 
-## O que mais é possível fazer na Azure
+## Extra
 
 **Cache das dependências do Cypress**
 ```yaml
@@ -29,14 +29,3 @@
     restoreKeys: cypress | $(Agent.OS) | package-lock.json
   displayName: Cache Cypress binary
 ```
-
-**Publicar artefatos do teste (relatório, imagens, vídeos)**
-```yaml
-
-```
-
-
-**Omitir download do binário do Cypress**
-```
-
-```# azure-workshop-cwi
